@@ -56,4 +56,88 @@
 }
 .TextoCentro{
     text-align: center;
+    height: 50%;
+}
+.BaseTecnologias{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.Tecnologias{
+    width: 25%;
+    height: 100%;
+    padding: 20px;
+}
+.ImagemTecnologia{
+    width: 100%;
+    height: 100%;
+}
+.BaseSobre{
+    background-color: black;
+    width: 100%;
+    height: 320px;
+    display: flex;
+    flex-direction: row;
+}
+.SobreImg{
+    width: 40%;
+    height: 100%;
+}
+.SobreTxt{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 60%;
+    height: 100%;
+    padding: 20px;
+}
+.ImagemSobre{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+.TextoCentro2{
+    height: 100%;
+    padding: 20px;
+    margin: 0px;
+}
+.BaseContato{
+    background-color: black;
+    width: 100%;
+    height: 320px;
+}
+.Contato{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.central2{
+    padding: 20px 0px 0px 0px;
+    width: 100%;
+}
+.RodaPe{
+    
+    width: 100%;
+    height: 300px;
+    background-color: black;
+}
+.BaseRodaPe{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;  
+}
+.ConteudoRodaPe{
+    display: flex;
+    flex-direction: column;
+}
+.ImgRodaPe{
+    width: 25%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
 }

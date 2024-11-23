@@ -48,15 +48,30 @@
 .ConteudoProjetos{
     display: flex;
     flex-direction: column;
+    width: 100%;
     height: 100%;
 }
+.TextoProjeto{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.ImgProjetos{
+    width: 100%;
+    height: 40%;
+    padding: 4%;
+}
 .ImagemProjeto{
-    height: 50%;
-    padding: 5%;
+    width: 100%;
+    height: 100%;
+    padding: 0%;
 }
 .TextoCentro{
     text-align: center;
-    height: 50%;
+    width: 100%;
+    height: 100%;
+    margin: 0%;
 }
 .BaseTecnologias{
     background-color: black;

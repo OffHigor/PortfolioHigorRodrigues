@@ -5,19 +5,12 @@
     background-color: rebeccapurple;
 }
 .container-fluid{
-    height: 60px;
+    
 }
 .dropdown-menu.show{
     background-color: blue;
 }
-.navbar-brand{
-    
-    font-size: 100%;
-}
-.navbar-nav{
-    height: 100%;
-    font-size: 100%;
-}
+
 .central{
     display: flex;
     justify-content: center;

@@ -121,7 +121,6 @@
 }
 .RodaPe{
     width: 100%;
-
     background-color: black;
 }
 .BaseRodaPe{
@@ -154,5 +153,5 @@
     text-align: center;
    padding-top: 4%;
     margin: 0px;
-    
+    height: 100%;
 }

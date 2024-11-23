@@ -8,14 +8,15 @@
 .central{
     display: flex;
     justify-content: center;
-    padding: 20px;
+    padding: 0px;
     width: 100%;
 }
 .Apresentacao{
     background-color: black;
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-direction: row;
+    padding-top: 10%;
 }
 .dropdown-menu.show{
     background-color: blue;
@@ -38,7 +39,8 @@
 .BaseProjetos{
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 80%;
+    height: 100%;
     background-color: black;
 }
 .Projetos{
@@ -77,7 +79,7 @@
     background-color: black;
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 80%;
 }
 .Tecnologias{
     width: 25%;
@@ -90,8 +92,8 @@
 }
 .BaseSobre{
     background-color: black;
-    width: 100%;
-    height: 320px;
+    width: 80%;
+    height: 100%;
     display: flex;
     flex-direction: row;
 }
@@ -105,16 +107,16 @@
     text-align: center;
     width: 60%;
     height: 100%;
-    padding: 20px;
+    padding: 2%;
 }
 .ImagemSobre{
     width: 100%;
     height: 100%;
-    padding: 20px;
+    padding: 2%;
 }
 .TextoCentro2{
     height: 100%;
-    padding: 20px;
+    padding: 2%;
     margin: 0px;
 }
 .BaseContato{

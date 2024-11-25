@@ -1,21 +1,36 @@
 .Tudo{
     background-color: rgb(42, 50, 165);
 }
-.navbar.navbar-expand-lg{
+.navbar.navbar-expand-sm{
     background-color: rebeccapurple;
 }
-.container-fluid{
-    
+.BlocoAp.container-fluid{
+    padding: 10%;
+}
+.BlocoProjetos.container-fluid{
+    padding: 10%;
+}
+.BlocoTecnologias.container-fluid{
+    padding: 10%;
+}
+.BlocoSobre.container-fluid{
+    padding: 10%;
+}
+.BlocoContato.container-fluid{
+    padding: 10%;
+}
+.BlocoRodaPe.container-fluid{
+    padding: 0px;
 }
 .dropdown-menu.show{
     background-color: blue;
 }
-
+.TextoApresentacao{
+    text-align: center;
+}
 .central{
     display: flex;
-    justify-content: center;
-    padding: 0px;
-    width: 100%;
+    justify-content: center; 
 }
 .Apresentacao{
     background-color: black;
@@ -37,7 +52,7 @@
 .ImagemApresentacao{
     width: 100%;
     height: 100%;
-    padding: 30px;
+    padding: 0px;
 }
 .BaseProjetos{
     display: flex;
@@ -121,6 +136,7 @@
     height: 100%;
     padding: 2%;
     margin: 0px;
+    text-align: center;
 }
 .BaseContato{
     background-color: rgb(0, 0, 0);

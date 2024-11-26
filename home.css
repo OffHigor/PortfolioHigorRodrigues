@@ -26,9 +26,7 @@
 .dropdown-menu.show{
     background-color: blue;
 }
-.ConteudoRodaPe.row{
-    width: 100%;
-}
+
 .ImgRodaPe.col-md-12{
     padding: 0%;
 }
@@ -185,12 +183,7 @@
     display: flex;
     justify-content: center;  
 }
-.ConteudoRodaPe{
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    height: 100%;
-}
+
 .ImgRodaPe{
     width: 100%;
     height: 20%;

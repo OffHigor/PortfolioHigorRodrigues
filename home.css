@@ -45,13 +45,19 @@
 .BlocoTecnologias.container-fluid{
     padding: 6%;
 }
+.CaixaTecnologias.row{
+    height: 300px;
+}
 .Tecnologias{
     padding-top: 10%;
+    width: 100%;
+    height: 25%;
 }
 .ImagemTecnologia{
     width: 100%;
     height: 100%;
 }
+
 
 
 

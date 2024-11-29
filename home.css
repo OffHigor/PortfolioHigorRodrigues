@@ -1,8 +1,8 @@
 .Tudo{
-    background-color: rgb(100, 100, 100);
+    background-color: rgb(172, 172, 172);
 }
 .navbar.navbar-expand-sm{
-    background-color: hsl(199, 67%, 47%);
+    background-color: rgb(40, 149, 200);
 }
 .dropdown-menu.show{
     background-color: hsl(199, 67%, 47%);
@@ -85,22 +85,34 @@
     height: 100%;
     padding: 2%;
 }
+.TituloSobre{
+    text-align: start;
+}
+.ImgSobre{
+    height: 400px;
+}
 .ImagemSobre{
     width: 100%;
     height: 100%;
     padding: 6%;
+    border-radius: 100%;
 }
-
-
 
 .BlocoContato.container-fluid{
     padding: 6%;
+}
+.IconesContato{
+    width: 25%;
+    padding: 4%; 
+}
+.Redes{
+    text-align: center;
 }
 
 
 
 .BlocoRodaPe.container-fluid{
-    background-color: black;
+    background-color: rgb(40, 149, 200);
     padding: 0px;
 }
 .ConteudoRodaPe.row{
@@ -124,11 +136,11 @@
 .IconesRodaPe{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    padding-top: 5%;
+   text-align: center;
+    padding-top: 1%;
 }
 .Icones{
-    width: 15%;
+    width: 20%;
     height: 100%;
     padding: 2%;
 }

@@ -1,5 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Modak&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+
+h1{
+    font-family: "Modak", system-ui;
+    font-weight: 600;
+    font-size: 32px;
+}
+
 .Tudo{
-    background-color: rgb(172, 172, 172);
+    background-color: rgb(134, 134, 134);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
 }
 .navbar.navbar-expand-sm{
     background-color: rgb(40, 149, 200);
@@ -21,7 +33,8 @@
 }
 .central{
     display: flex;
-    justify-content: center; 
+    justify-content: center;
+    text-align: center;
 }
 
 

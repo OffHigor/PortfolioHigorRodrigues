@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Modak&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 .Tudo{
-    background-color: rgb(134, 134, 134);
+    background-color: rgb(177, 173, 173);
     
 }
 
@@ -55,6 +55,7 @@ p{
     justify-content: center;
     text-align: center;
     color: yellow;
+    margin: 0px 0px 30px;
 }
 
 
@@ -132,6 +133,14 @@ p{
     padding: 6%;
     border-radius: 100%;
 }
+.ContatoHigor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.IconeRedes{
+    margin: 20px;
+}
 
 .BlocoContato.container-fluid{
     padding: 6%;
@@ -158,16 +167,14 @@ p{
     height: 165px;
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 .TextoRodaPe{
     text-align: center;
-   padding-top: 2%;
-    margin: 0px;
+    margin: 0 0px 20px;
 }
-.ImgRodaPe.col-md-12{
-    padding: 0%;
-}
+
 .IconesRodaPe{
     display: flex;
     flex-direction: row;
@@ -175,7 +182,5 @@ p{
     padding-top: 1%;
 }
 .Icones{
-    width: 20%;
-    height: 100%;
     padding: 2%;
 }

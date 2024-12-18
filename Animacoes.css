@@ -1,5 +1,26 @@
+.ImagemApresentacao{
+    transform: translate(0px);
+    animation: giro 10s ease-in-out infinite;
+}
+@keyframes giro {
+    0%{
+        transform: translate(0px);
+    }
+    25%{
+        transform: translate(30px);
+    }
+    50%{
+        transform: translateY(30px) translateX(-30px);
+    }
+    75%{
+        transform: translateY(-30px) translateX(-30px);
+    }
+    100%{
+        transform: translateY(30px); translateX:(30px) ;
+    }
+}
 .Icones:hover{
-    transform: rotate(2turn);
+    transform: rotate(2turn) scale(1.4 );
     transition: 3s ease-in-out;
 }
 .ImagemRodaPe:hover{

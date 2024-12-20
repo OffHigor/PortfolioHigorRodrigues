@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Modak&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 .Tudo{
-    background-color: rgb(216, 192, 165);
+    background-color: #D9D9D9;
     
 }
 .texto{
@@ -9,14 +9,25 @@
     font-size: large !important;
     font-weight: 500 !important;
 }
-
-h1{
+@media (max-width: 580px) {
+    h1 {
+        font-family: "Modak", system-ui;
+        font-weight:  100;
+        font-style: normal;
+        font-size: 42px !important;
+    }
+}
+@media (min-width: 581px)
+{
+    h1{
     font-family: "Modak", system-ui;
     font-weight:  100;
     font-style: normal;
-    font-size: 48px !important;
+    font-size: 62px !important;
     
 }
+}
+
 h2{
     font-family: "Modak", system-ui;
     font-weight:  100;
@@ -37,10 +48,10 @@ p{
 
 
 .navbar.navbar-expand-sm{
-    background-color: rgb(40, 149, 200);
+    background-color: #049DD9  ;
 }
 .dropdown-menu.show{
-    background-color: hsl(199, 67%, 47%);
+    background-color: #049DD9;
 }
 .Logo{
     width: 100px;
@@ -58,14 +69,14 @@ p{
     display: flex;
     justify-content: center;
     text-align: center;
-    color:hsl(199, 67%, 47%);
+    color:#049DD9;
     margin: 50px 0px ;
 }
 .central2{
     display: flex;
     justify-content: center;
     text-align: center;
-    color:yellow;
+    color:#049DD9;
     margin: 50px 0px ;
 }
 
@@ -105,11 +116,11 @@ p{
     border-radius: 10px;
 }
 .ConteudoProjetos{
-    background-color: rgb(40, 149, 200) ;
+    background-color: #F2F2F2 ;
     border-radius: 20px;
     margin-right: 20px;
-    box-shadow: 15px 15px 20px rgba(40, 149, 200, 0.555);
-    border: 2px solid yellow;
+    box-shadow: 15px 15px 20px #A6A6A6;
+    border: 2px solid #949393;
 }
 .ConteudoProjetos.col-10{
     padding: 0px;
@@ -117,12 +128,14 @@ p{
 }
 .ProjetosBotao{
     margin: 20px;
-    width: 30%;
+    width: 40%;
+    height: 50px;
+    font-size: large;
     text-align: center;
-    background-color: yellow;
+    background-color: #049DD9;
     border-radius: 10px;
     color: black;
-    border: rgb(255, 136, 0);
+    border: solid #D9D9D9;
 }
 .ImgPJ{
     display: flex;
@@ -168,7 +181,7 @@ p{
 }
 .TituloSobre{
     text-align: start;
-    color: hsl(199, 67%, 47%);
+    color: #049DD9;
 }
 .ImgSobre{
     height: 400px;
@@ -179,8 +192,8 @@ p{
     height: 100%;
     margin: 0px 0px;
     border-radius: 100%;
-    box-shadow: 1px 1px 30px rgb(255, 136, 0);
-    border: 1px solid rgb(255, 136, 0);
+    box-shadow: 1px 1px 30px #5CC8F2;
+    border: 2px solid #049DD9;
 }
 .ContatoHigor{
     display: flex;
@@ -205,7 +218,7 @@ p{
 
 
 .BlocoRodaPe.container-fluid{
-    background-color: rgb(40, 149, 200);
+    background-color: #049DD9;
     padding: 0px;
 }
 .ConteudoRodaPe.row{

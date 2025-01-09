@@ -4,6 +4,10 @@
     background-color: #D9D9D9;
     
 }
+.tt{
+    width: 60%;
+    margin: auto;
+}
 .texto{
     color: rgb(255, 255, 255) !important;
     font-size: large !important;

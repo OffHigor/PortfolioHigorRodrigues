@@ -5,7 +5,7 @@
     
 }
 .tt{
-    width: 60%;
+    width: 85%;
     margin: auto;
 }
 .texto{
@@ -35,6 +35,10 @@
     .BlocoSobre.container-fluid{
         padding: 40px 40px;
     }
+    h4{
+        font-size: 28px !important;
+    }
+
 }
 @media (min-width: 581px)
 {
@@ -80,6 +84,9 @@
     }
     .BlocoSobre.container-fluid{
         padding: 40px 120px;
+    }
+    h4{
+        font-size: 38px !important;
     }
 }
 
@@ -217,19 +224,27 @@ a{
 }
 
 
-
+h4{
+    font-weight: 100 !important;
+    font-family: "Modak", system-ui;
+    color: #049DD9 !important;
+}
 .CaixaTec.row{
     width: 100%;
     margin: 0px;
 }
 .Tecnologias{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    text-align: center;
+    margin-top: 30px !important;
 }
 .ImagemTecnologia{
+    margin: auto;
     width: 100%;
-    height: 100%;
-    padding-top: 10%;
+    height: 80%;
+    padding-top: 5% ;
 }
 
 

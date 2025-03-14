@@ -5,8 +5,10 @@
     
 }
 .tt{
-    width: 85%;
+    width: 80%;
+
     margin: auto;
+   font-size: 22px;
 }
 .texto{
     color: rgb(255, 255, 255) !important;
@@ -47,6 +49,9 @@
     font-weight:  100;
     font-style: normal;
     font-size: 62px !important;
+    }
+    .tt{
+        margin-top: 80px;
     }
     .BlocoAp.container-fluid{
         padding: 40px 120px;
@@ -161,6 +166,66 @@ p{
     justify-content: center;
 }
 
+@keyframes mark {
+    50%{
+        border-right-color: transparent;
+    }
+}
+@keyframes write {
+    0%{
+        width: 0;
+    }
+    20%{
+        width: 13.5ch; 
+    }
+    70%{
+        width: 13.5ch;
+    }
+    85%{
+        width: 0;
+    }
+    100%{
+        width: 0;
+    }
+}
+@keyframes write2 {
+    0%{
+        width: 0;
+    }
+    20%{
+        width: 9ch; 
+    }
+    70%{
+        width: 9ch;
+    }
+    85%{
+        width: 0;
+    }
+    100%{
+        width: 0;
+    }
+}
+#titulo{
+    display: block;
+    border-right: 2px solid #049DD9;
+    white-space: nowrap;
+    overflow: hidden ;
+    animation: mark .7s step-end infinite, write 10s steps(13, end) infinite;
+    margin-right: auto;
+    margin-left: auto;
+    width: 13.5ch;
+}
+#titulo2{
+    display: block;
+    border-right: 2px solid #049DD9;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: mark .7s step-end infinite, write2 10s steps(10, end) infinite;
+    margin-right: auto;
+    margin-left: auto;
+    width: 9ch;
+}
+
 .TextoApresentacao{
     text-align: center;
 
@@ -242,7 +307,7 @@ h4{
 }
 .ImagemTecnologia{
     margin: auto;
-    width: 100%;
+    width: 80%;
     height: 80%;
     padding-top: 5% ;
 }
